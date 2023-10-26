@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector("[data-start]"),t=document.querySelector("[data-stop]"),o=document.querySelector("body");e.addEventListener("click",(function(){e.disabled=!0;var n=setInterval((function(){var e=o.style.backgroundColor="#".concat(Math.floor(16777215*Math.random()).toString(16).padStart(6,0));console.log("The new BackgroundColor is hex: ".concat(e))}),1e3);t.addEventListener("click",(function(){e.disabled=!1,clearInterval(n),console.log("Interval has stopped")}))}))}();
+//# sourceMappingURL=01-color-switcher.e65ec960.js.map
